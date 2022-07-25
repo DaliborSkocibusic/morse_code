@@ -1,0 +1,56 @@
+div {
+    height: 4vh;
+    width: 50%;
+    background-color: lightblue;
+    margin: 10px;
+    text-align: center;
+    justify-items: center;
+    border: 1px solid black;
+    padding: 2vh;
+    font-size: 20px;
+    color: ;
+
+
+}
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 80%;
+    background-color: aqua;
+
+}
+
+.input-container {
+
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 40%;
+}
+
+input {
+
+    justify-content: space-around;
+    height: 20px;
+    width: 25%;
+    background-color: lightblue;
+    margin: 50px;
+
+}
+
+textarea {
+    height: 200px;
+    width: 50%;
+    background-color: lightblue;
+    margin: 10px;
+
+}

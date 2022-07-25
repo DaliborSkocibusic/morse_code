@@ -7,21 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Morse Code Translator</title>
     <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
-<body>
+<body class = "main-container">
     <h1>Morse Code Translator</h1>
 
     <!-- <form> -->
-        <label for="input">Input Text:</label><br>
-        <textarea type="textarea" id="inputText" rows="4" cols="70"></textarea><br>
-        <!-- <label for="lname">Last name:</label> -->
-        <!-- <input type="text" id="lname" name="lname"><br><br> -->
-        <input type="submit" id="submit" value="submit"><br>
+    <label for="input">Input Text:</label><br>
+    <textarea type="textarea" id="inputText" rows="4" cols="70"></textarea><br>
+    <!-- <label for="lname">Last name:</label> -->
+    <!-- <input type="text" id="lname" name="lname"><br><br> -->
+    <div class="input-container"><input type="submit" id="submit" value="submit"><br>
         <input type="submit" id="engMorse" value="English->Morse">
-        <div id = "result">ABC</div>
+    </div>
+    <div id="result">Your results go here</div>
 
-    <!-- </form> -->
 </body>
 <script src="./script.js"></script>
 
