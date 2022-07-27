@@ -1,56 +1,106 @@
-div {
-    height: 4vh;
-    width: 50%;
-    background-color: lightblue;
-    margin: 10px;
-    text-align: center;
-    justify-items: center;
-    border: 1px solid black;
-    padding: 2vh;
-    font-size: 20px;
-    color: ;
-
-
+* {
+    background-color: rgb(224, 64, 86);
+    font: rgb(43, 21, 21);
 }
 
-
-.main-container {
+.sub-container {
     display: flex;
     flex-direction: column;
     height: 85%;
     justify-content: center;
     align-items: center;
     margin: 20px;
-    width: 80%;
-    background-color: aqua;
-
+    width: 80vw;
+    background-color: rgb(242, 242, 242);
+    /* background-color: rgb(224, 64, 86); */
+    /* background-color: rgb(43, 21, 21); */
+    font-size: 6vh;
 }
+
+h1 {
+    font-size: 10vh;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(242, 242, 242);
+}
+
+div {
+    height: 4vh;
+    width: 50vw;
+    /* background-color: rgb(43, 21, 21); */
+    /* background-color: rgb(242, 242, 242); */
+    background-color: rgb(127, 127, 127);
+    margin: 10px;
+    text-align: center;
+    justify-items: center;
+    border: 1px solid rgb(43, 21, 21);
+    padding: 2vh;
+    font-size: 3vh;
+    color: rgb(43, 21, 21);
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh;
+    width: 80vw;
+    font-size: 3vh;
+    /* background-color: rgb(242, 242, 242); */
+}
+
 
 .input-container {
 
     display: flex;
     flex-direction: row;
-    height: 50px;
+    height: 3vh;
     justify-content: center;
     align-items: center;
     margin: 20px;
-    width: 40%;
+    width: 25vw;
+    font-size: 3vh;
+    font: rgb(43, 21, 21);
+    background-color: rgb(242, 242, 242);
+}
+
+label {
+    background-color: rgb(242, 242, 242);
 }
 
 input {
-
     justify-content: space-around;
-    height: 20px;
-    width: 25%;
-    background-color: lightblue;
-    margin: 50px;
+    height: 10vh;
+    width: 25vw;
+    background-color: rgb(127, 127, 127);
+    /* background-color: rgb(242, 242, 242); */
+    margin: 4vh;
+    font-size: 4vh;
+    color: white;
 
 }
 
 textarea {
-    height: 200px;
-    width: 50%;
-    background-color: lightblue;
-    margin: 10px;
+    height: 60vh;
+    width: 30vw;
+    background-color: rgb(242, 242, 242);
+    background-color: rgb(127, 127, 127);
+    margin: 5vh;
+    resize: none;
+    font-size: 4vh;
+    color: white;
+}
 
+#error {
+    height: 20vh;
+    width: 30vw;
+    font-size: 3vh;
+}
+
+#result {
+    height: 50vh;
+    width: 30vw;
+    font-size: 3vh;
 }
